@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="main_content">
+        <h1>Weather</h1>
+        <div id="input_container">
+           
+            <input type="text" id ="user_input">
+            <button id="submit" type="button">GO!</button>
+        </div>
+    </div> 
+    <div id="current_weather" class="hidden">
+        <div class="weather_display" id = "current"> Current
+            <img id="curr_weather_img">
+            <p id = "curr_weather_content"></p>
+        </div>
+    </div>
+    <div id="forecast_container" class="hidden">
+        <div class="weather_display" id = "day_1">
+            <p id="day_1_title"></p>
+            <img id="day_1_img">
+            <p id = "day_1_content"></p>
+        </div>
+        <div class="weather_display" id = "day_2">
+            <p id="day_2_title"></p>
+            <img id="day_2_img">
+            <p id = "day_2_content"></p>
+        </div>
+        <div class="weather_display" id = "day_3">
+            <p id="day_3_title"></p>
+            <img id="day_3_img">
+            <p id = "day_3_content"></p>
+        </div>
+        <div class="weather_display" id = "day_4">
+            <p id="day_4_title"></p>
+            <img id="day_4_img">
+            <p id = "day_4_content"></p>
+        </div>
+        <div class="weather_display" id = "day_5">
+            <p id="day_5_title"></p>
+            <img id="day_5_img">
+            <p id = "day_5_content"></p>
+        </div>
+        <div class="weather_display" id = "day_6">
+            <p id="day_6_title"></p>
+            <img id="day_6_img">
+            <p id = "day_6_content"></p>
+        </div>
+        <div class="weather_display" id = "day_7">
+            <p id="day_7_title"></p>
+            <img id="day_7_img">
+            <p id = "day_7_content"></p>
+        </div>
+    </div>
+    <script type="module" src="static/weather.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+html{
+    background: radial-gradient(white, rgb(27, 38, 85));
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height:100%;
+    margin: 0; 
+}
+
+.show{
+    display:block !important; 
+}
+
+.hidden{
+    display: none !important;
+}
+ 
+.main_content{
+    margin-top: 10%;
+    display:flex;
+    flex-direction: column; 
+    justify-content:center;
+    align-items: center;
+}
+
+#input_container{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 20%; 
+    margin-top: 20px; 
+}
+
+#user_input{
+    height: 10%;
+    width: 20%;
+    margin: 20px; 
+    padding: 10px 20px; 
+    border-radius: 6px;
+    border: rgba(0,0,0, 0);
+    background: rgba(255,255,255,0.8);
+    display: inline-block;
+    box-shadow: rgba(0,0,0,0.2);
+}
+
+#user_input:focus{
+    background: #c8c8c8; 
+    transform: scale(1.2);
+}
+
+#submit{
+    border: rgba(0,0,0, 0);
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px; 
+    padding: 10px 20px; 
+    transition: 0.2s ease-in-out; 
+}
+
+#submit:active{
+    background-color:#c8c8c8;
+    transform: scale(0.5); 
+}
+
+#submit:hover{
+    background: #c8c8c8; 
+}
+
+#forecast_container{
+    margin-top: 50px; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; 
+    grid-gap: 10px; 
+    padding: 20px; 
+}
+
+.weather_display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px; 
+    height: 200px; 
+    text-align: center; 
+    border-radius: 4px;
+
+}
+
+.weather_display:hover{
+    transform: scale(1.2); 
+    font-weight: bold; 
+}
+
+#current_weather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
